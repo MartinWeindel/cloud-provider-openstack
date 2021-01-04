@@ -8,7 +8,7 @@ require (
 	github.com/coreos/go-systemd v0.0.0-20190620071333-e64a0ec8b42a // indirect
 	github.com/emicklei/go-restful v2.9.6+incompatible // indirect
 	github.com/golang/protobuf v1.4.2
-	github.com/gophercloud/gophercloud v0.14.1-0.20201209030243-93f98a54e84c
+	github.com/gophercloud/gophercloud v0.15.0
 	github.com/gophercloud/utils v0.0.0-20200423144003-7c72efc7435d
 	github.com/gorilla/mux v1.7.3
 	github.com/hashicorp/go-version v1.2.0
@@ -48,8 +48,6 @@ require (
 	k8s.io/utils v0.0.0-20200729134348-d5654de09c73
 	software.sslmate.com/src/go-pkcs12 v0.0.0-20190209200317-47dd539968c4
 )
-
-replace github.com/gophercloud/gophercloud => github.com/MartinWeindel/gophercloud v0.14.1-0.20201210130440-22231bd44ce6
 
 replace (
 	github.com/opencontainers/runc => github.com/opencontainers/runc v1.0.0-rc9
